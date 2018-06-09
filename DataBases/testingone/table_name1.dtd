@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT table_name1 (Member)+>
+<!ELEMENT Member (column_name1,column_name2,column_name3)>
+<!ELEMENT column_name1 (#PCDATA)>
+<!ATTLIST column_name1 type (varchar | int) "varchar">
+<!ELEMENT column_name2 (#PCDATA)>
+<!ATTLIST column_name2 type (varchar | int) "varchar">
+<!ELEMENT column_name3 (#PCDATA)>
+<!ATTLIST column_name3 type (varchar | int) "varchar">
